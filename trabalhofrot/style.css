@@ -1,0 +1,114 @@
+:root {
+    --cor-textoPrincipal: #ffff;
+    }
+
+
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.section1{
+    height: 70vh;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(38, 37, 37, 0.5)), url("/myplace/images/pexels-felix-mittermeier-957002.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.lista_Header {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    list-style-type: none;
+    padding-top: 1.2rem;
+    gap: 50px;  
+}
+
+.itemlista {
+    display: flex;
+    margin: 0px 1.5rem 0px auto;
+    gap: 3rem;
+}
+
+.container_frontpage{
+    display: flex;
+    padding-top: 10rem;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: var(--cor-textoPrincipal);
+    text-decoration: none;
+}
+
+.tituloh2 {
+    color: var(--cor-textoPrincipal);
+}
+
+.ancora {
+    color: var(--cor-textoPrincipal);
+    background-color: #ee503b;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.section_card{
+  padding-top: 50px;  
+  margin: 12rem;
+  height: 110%;
+
+}
+
+.titulo_cards{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+}
+
+.container_card{
+    display: flex;
+    gap: 5rem;
+   margin-bottom: 5rem;
+}
+
+.itens_card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    
+}
+
+.imgcard {
+    height: 40vh;
+}
+
+.textocard{
+    text-align: center;
+   }
+
+.ancoracard{
+    color: white;
+    background-color: #ee503b;
+    padding: 10px;
+    width: 150px;
+    color: var(--cor-textoPrincipal);
+    text-align: center;
+    border-radius: 30px;
+}
